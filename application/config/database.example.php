@@ -6,10 +6,10 @@ $query_builder = TRUE;
 
 $db['v5'] = array(
 	'dsn'	=> '',
-	'hostname' => '104.43.14.90,6969',
+	'hostname' => 'localhost',
 	'username' => 'sa',
-	'password' => '2021Pr3d4t0r_5',
-	'database' => 'predator_5',
+	'password' => 'root',
+	'database' => 'prioritasDB',
 	'dbdriver' => 'sqlsrv',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
