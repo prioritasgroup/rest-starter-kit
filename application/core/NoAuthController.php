@@ -1,7 +1,7 @@
 <?php
 defined("BASEPATH") OR exit();
 
-class NoAuthController extends MX_Controller
+class NoAuthController extends DBBuilder
 {
 	var $upload_resize  = array(
         array('name'	=> 'thumb','width'	=> 200, 'height'	=> 200, 'quality'	=> '50%'),
