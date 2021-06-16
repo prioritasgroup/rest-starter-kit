@@ -5,7 +5,9 @@
         "email": "dani.webdev@gmail.com"
     }],
     "require": {
+        "php": "^7.4 | ^8.0",
         "phpoffice/phpspreadsheet": "^1.18",
-        "google/cloud-storage": "^1.22"
+        "google/cloud-storage": "^1.22",
+        "firebase/php-jwt": "^5.3"
     }
 }

@@ -10,7 +10,7 @@ class RESTNoAuth extends REST_NoAuth {
 
     function __construct() {
         parent::__construct();
-        $this->cache               = (new Cache());
+        // $this->cache               = (new Cache());
     }
     
 }

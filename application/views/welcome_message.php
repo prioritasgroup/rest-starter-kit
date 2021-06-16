@@ -68,7 +68,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 <div id="container">
-	<h1>Welcome to Predator Integrated System v4.0!</h1>
+	<h1>Welcome to Predator Integrated System v<?=APP_VERSION;?>!</h1>
 
 	<div id="body">
 		<p>

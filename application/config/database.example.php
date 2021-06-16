@@ -1,59 +1,27 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-// $exp = explode('.', $_SERVER['HTTP_HOST']);
-
-
-// if($exp[0] == 'beta-api') {
-// 	$active_group = 'default';
-// } else if($exp[0] == 'dev-api') {
-// 	$active_group = 'demo';
-// } else {
-	// }
-$active_group = 'default';
-
+$active_group = 'v5';
 $query_builder = TRUE;
 
-$db['default'] = array(
-	'dsn'		   => '',
-	'hostname'     => '168.63.242.2',
-	'username'     => 'user',
-	'password'     => '2019predator030317',
-	'database'     => 'predator_4',
-	'dbdriver'     => 'sqlsrv',
-	'dbprefix'     => '',
-	'pconnect'     => FALSE,
-	'db_debug'     => (ENVIRONMENT !== 'production'),
-	'cache_on'     => FALSE,
-	'cachedir'     => APPPATH.'cache',
-	'char_set'     => 'utf8',
-	'dbcollat'     => 'utf8_general_ci',
-	'swap_pre'     => '',
-	'encrypt' 	   => FALSE,
-	'compress'     => FALSE,
-	'stricton'     => FALSE,
-	'failover'     => array(),
-	'save_queries' => TRUE
-);
-
-$db['beta'] = array(
-	'dsn'		   => '',
-	'hostname'     => '168.63.242.2',
-	'username'     => 'user',
-	'password'     => '2019predator030317',
-	'database'     => 'predator_4_beta',
-	'dbdriver'     => 'sqlsrv',
-	'dbprefix'     => '',
-	'pconnect'     => FALSE,
-	'db_debug'     => (ENVIRONMENT !== 'production'),
-	'cache_on'     => FALSE,
-	'cachedir'     => APPPATH.'cache',
-	'char_set'     => 'utf8',
-	'dbcollat'     => 'utf8_general_ci',
-	'swap_pre'     => '',
-	'encrypt' 	   => FALSE,
-	'compress'     => FALSE,
-	'stricton'     => FALSE,
-	'failover'     => array(),
+$db['v5'] = array(
+	'dsn'	=> '',
+	'hostname' => '104.43.14.90,6969',
+	'username' => 'sa',
+	'password' => '2021Pr3d4t0r_5',
+	'database' => 'predator_5',
+	'dbdriver' => 'sqlsrv',
+	'dbprefix' => '',
+	'pconnect' => FALSE,
+	'db_debug' => (ENVIRONMENT !== 'production'),
+	'cache_on' => FALSE,
+	'cachedir' => '',
+	'char_set' => 'utf8',
+	'dbcollat' => 'utf8_general_ci',
+	'swap_pre' => '',
+	'encrypt' => FALSE,
+	'compress' => FALSE,
+	'stricton' => FALSE,
+	'failover' => array(),
 	'save_queries' => TRUE
 );

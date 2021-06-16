@@ -2238,7 +2238,6 @@ class REST_Auth extends REST_Controller
     {
         try {
             parent::__construct();
-            // error_reporting(0);
             $headers = $this->input->request_headers();
             if(array_key_exists('X-Api-Key', $headers) || array_key_exists('X-API-KEY', $headers))
             {

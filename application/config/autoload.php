@@ -89,7 +89,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array('jwt', 'authorization', 'url', 'app', 'Redis/Redis', 'gstorage');
+$autoload['helper'] = array('jwt', 'authorization', 'url', 'app', 'gstorage');
 
 /*
 | -------------------------------------------------------------------

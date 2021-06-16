@@ -56,6 +56,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  *
  */
 	const CI_VERSION = '3.1.9';
+	const APP_VERSION = '5.0.0';
 
 /*
  * ------------------------------------------------------

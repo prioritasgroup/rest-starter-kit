@@ -26,7 +26,7 @@ class RESTAuth extends REST_Auth {
         $this->group_marketing_id  = $this->api->group_marketing_id;
 
         $this->survey_level_6      = [180, 185];
-        $this->cache               = (new Cache());
+        // $this->cache               = (new Cache());
 
     }
 
