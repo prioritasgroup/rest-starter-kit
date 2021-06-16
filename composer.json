@@ -1,0 +1,11 @@
+{
+    "name": "mydan3/library",
+    "authors": [{
+        "name": "Muhamad Yusup Hamdani",
+        "email": "dani.webdev@gmail.com"
+    }],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.18",
+        "google/cloud-storage": "^1.22"
+    }
+}
